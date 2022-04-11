@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+body {
+  background-image: url('black2.jpeg');
+  background-repeat: no-repeat bottom center scroll;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.logo {
+  height: 50%;
+  margin-left: 15%;
+  width: 80%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+}
+
+.login-input {
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 2px;
+  margin-left: 35%;
+  width: 280px;
+}
+
+.play-btn {
+  border-radius: 5px;
+  color: black;
+  margin-bottom: 2px;
+  margin-left: 36%;
+  margin-top: 2px;
+  width: 275px;
+}
+
+.settings {
+  background-color: rgb(56, 99, 56);
+  border-radius: 5px;
+  color: white;
+  height: 25px;
+  margin-left: 45%;
+  width: 80px;
+}

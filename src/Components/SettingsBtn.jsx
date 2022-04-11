@@ -14,6 +14,7 @@ export default class SettingsBtn extends Component {
           type="button"
           data-testid="btn-settings"
           onClick={ this.handleClick }
+          className="settings"
         >
           Settings
         </button>
