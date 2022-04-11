@@ -4,3 +4,18 @@ header {
   top: 0;
   width: 100%;
 }
+
+.logo {
+  float: left;
+  width: 48%;
+}
+
+.data {
+  float: right;
+}
+
+.image {
+  height: 20%;
+  margin-left: 15%;
+  width: 20%;
+}

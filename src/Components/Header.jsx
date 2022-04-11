@@ -29,13 +29,19 @@ class Header extends Component {
     const { name, score } = this.props;
     return (
       <header>
-        <div>
-          <img className="logo" src={ Logo } alt="triviapng" />
+        <div className="logo">
+          <img className="image" src={ Logo } alt="triviapng" />
         </div>
-        <div>
+        <div className="data">
           <img src={ imgUrl } alt="PlayerPhoto" data-testid="header-profile-picture" />
-          <h3 data-testid="header-player-name">{name}</h3>
-          <span data-testid="header-score">{score}</span>
+          <h3 data-testid="header-player-name">
+            Name:
+            {name}
+          </h3>
+          <span data-testid="header-score">
+            Pontos:
+            {score}
+          </span>
         </div>
       </header>
     );
