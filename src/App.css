@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html, body {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+body {
+  background-image: url('black2.jpeg');
+  background-repeat: no-repeat bottom center scroll;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+button {
+  color: black;
+}
