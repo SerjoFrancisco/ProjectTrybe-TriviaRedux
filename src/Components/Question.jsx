@@ -135,7 +135,7 @@ handleNext = () => {
     return (
 
       <div>
-        <div>
+        <div className="questionText">
           <p data-testid="question-category">{category}</p>
 
           <p data-testid="question-text">{question}</p>

@@ -33,7 +33,12 @@ class Header extends Component {
           <img className="image" src={ Logo } alt="triviapng" />
         </div>
         <div className="data">
-          <img src={ imgUrl } alt="PlayerPhoto" data-testid="header-profile-picture" />
+          <img
+            className="avatar"
+            src={ imgUrl }
+            alt="PlayerPhoto"
+            data-testid="header-profile-picture"
+          />
           <h3 data-testid="header-player-name">
             Name:
             {name}

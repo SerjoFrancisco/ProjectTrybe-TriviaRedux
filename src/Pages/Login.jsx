@@ -49,9 +49,10 @@ class Login extends Component {
     return (
       <>
         <img className="logo" src={ Logo } alt="triviapng" />
+        <SettingsBtn history={ history } />
         <div>
           <form className="login-form">
-            <label htmlFor="login">
+            <label className="login" htmlFor="login">
               <input
                 type="text"
                 data-testid="input-player-name"
@@ -63,7 +64,7 @@ class Login extends Component {
                 className="login-input"
               />
             </label>
-            <label htmlFor="email">
+            <label className="email" htmlFor="email">
               <input
                 type="email"
                 data-testid="input-gravatar-email"
@@ -85,7 +86,6 @@ class Login extends Component {
               Play
             </button>
           </form>
-          <SettingsBtn history={ history } />
         </div>
       </>
     );

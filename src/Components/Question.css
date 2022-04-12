@@ -9,3 +9,14 @@
 .next {
   visibility: hidden;
 }
+
+button {
+  display: block;
+  height: 50px;
+  margin: 5px auto;
+  width: 300px;
+}
+
+.questionText {
+  margin: 10px auto;
+}

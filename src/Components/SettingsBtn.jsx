@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { MdSettings } from 'react-icons/md';
 
 export default class SettingsBtn extends Component {
   handleClick = () => {
@@ -16,7 +17,7 @@ export default class SettingsBtn extends Component {
           onClick={ this.handleClick }
           className="settings"
         >
-          Settings
+          <MdSettings className="settings-btn" />
         </button>
 
       </div>

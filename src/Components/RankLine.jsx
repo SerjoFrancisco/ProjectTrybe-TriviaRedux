@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './RankLine.css';
 
 export default class RankLine extends Component {
   render() {
@@ -7,9 +8,16 @@ export default class RankLine extends Component {
     const { name, score, picture } = player;
     return (
       <li>
-        <img src={ picture } alt={ name } />
-        <p data-testid={ `player-name-${index}` }>{name}</p>
-        <p data-testid={ `player-score-${index}` }>{score}</p>
+        <img className="picture" src={ picture } alt={ name } />
+        <span data-testid={ `player-name-${index}` }>
+          Nome:
+          {name}
+        </span>
+        {'  '}
+        <span data-testid={ `player-score-${index}` }>
+          Pontos:
+          {score}
+        </span>
       </li>
     );
   }

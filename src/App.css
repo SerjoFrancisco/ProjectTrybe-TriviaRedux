@@ -17,13 +17,18 @@ body {
   background-image: url('black2.jpeg');
   background-repeat: no-repeat bottom center scroll;
   background-size: cover;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 30%;
-  margin-right: 30%;
+  margin-right: 30%; */
+  width: 100%;
 }
 
 button {
   color: black;
+}
+
+#root {
+  width: 100%;
 }

@@ -1,0 +1,12 @@
+li {
+  display: block;
+  height: 100px;
+  width: 30%;
+}
+
+.picture {
+  border-radius: 50%;
+  float: left;
+  height: 50px;
+  width: 50px;
+}

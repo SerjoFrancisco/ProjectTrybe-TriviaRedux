@@ -19,3 +19,7 @@ header {
   margin-left: 15%;
   width: 20%;
 }
+
+.avatar {
+  border-radius: 50%;
+}

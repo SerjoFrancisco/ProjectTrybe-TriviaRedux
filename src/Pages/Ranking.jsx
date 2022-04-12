@@ -40,7 +40,7 @@ render() {
           Go Home
         </button>
       </header>
-      <ul>
+      <ul className="list">
         { ranking.map((player, index) => (
           <RankLine
             key={ player.name }
