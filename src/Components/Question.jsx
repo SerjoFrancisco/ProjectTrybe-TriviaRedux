@@ -132,13 +132,14 @@ handleNext = () => {
     const { answers, index, cantRespond, timer } = this.state;
     const { questions } = this.props;
     const { category, question } = questions[index];
+    const he = require('he');
     return (
 
       <div>
         <div className="questionText">
           <p data-testid="question-category">{category}</p>
 
-          <p data-testid="question-text">{question}</p>
+          <p data-testid="question-text">{he.decode(question)}</p>
           <p>{timer}</p>
         </div>
         <div>
@@ -152,7 +153,7 @@ handleNext = () => {
                 id={ e.testId }
                 disabled={ cantRespond }
               >
-                {e.response}
+                {he.decode(e.response)}
               </button>
             )))}
           </div>
