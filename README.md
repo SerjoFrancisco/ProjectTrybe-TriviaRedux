@@ -8,4 +8,4 @@ E Css para dar estilo a página.
 
 Esse Projeto em grupo foi feito em 4 mãos: [Alberto](https://github.com/beto-ouverney),[Laise](https://github.com/LaiFrance), [Maria](https://github.com/MarieJLisboa) e Eu.
 
-Para Rodar localmente este projeto é necessário apenas clonar o repositório e após isso usar o 'npm install' e 'npm start', ou acessar [aqui](www.pudim.com.br)
+Para Rodar localmente este projeto é necessário apenas clonar o repositório e após isso usar o 'npm install' e 'npm start', ou acessar [aqui](https://mals-trivia-redux.vercel.app/)
